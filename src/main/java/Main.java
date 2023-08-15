@@ -1,5 +1,6 @@
 import java.util.Scanner;
-import
+// Had an extra import with nothing in it
+
 
 public class Main {
     public static void main(String[] args) {
@@ -26,7 +27,7 @@ public class Main {
         newInput.getFormattedDownloadTime();
 
         System.out.println(newInput);
-
+        // Prints out fine from what I see you just had an extra thing that I already deleted
 
 
     }
