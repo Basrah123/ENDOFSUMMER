@@ -74,7 +74,7 @@ public class Data {
     }
 
     //    Class methods
-    public double convertToMegabytes(){
+    public short convertToMegabytes(){
 
         switch (getUnit_type()){
             case "bytes":
@@ -91,7 +91,7 @@ public class Data {
                 break;
         }
 
-        return getConverted_data();
+        return (short) getConverted_data();
     }
 
     public double calculateDownloadTime(){
